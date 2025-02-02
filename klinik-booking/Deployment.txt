@@ -1,0 +1,6 @@
+Jalankan Aplikasi secara lokal dengan
+"NPM START"
+
+jika ingin melakukan build dan deploy ke firebase
+"NPM RUN BUILD"
+"FIREBASE DEPLOY"
