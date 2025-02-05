@@ -1,0 +1,65 @@
+.riwayat-container {
+  padding: 20px;
+  background-color: #f8f9fa;
+  font-family: "Arial", sans-serif;
+}
+
+h2 {
+  text-align: center;
+  color: #333;
+}
+
+.reservation-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 20px 0;
+}
+
+.reservation-table th,
+.reservation-table td {
+  border: 1px solid #ddd;
+  padding: 10px;
+  text-align: center;
+}
+
+.reservation-table th {
+  background-color: #4caf50;
+  color: white;
+}
+
+.reservation-table tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+.reservation-table tr:hover {
+  background-color: #ddd;
+}
+
+.no-reservation,
+.error-message {
+  text-align: center;
+  color: #d32f2f;
+}
+
+.button-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.btn {
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  font-size: 14px;
+  font-weight: bold;
+  border-radius: 5px;
+  cursor: pointer;
+  margin: 0 10px;
+  transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+  background-color: #388e3c;
+}

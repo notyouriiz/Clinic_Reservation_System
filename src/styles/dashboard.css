@@ -1,0 +1,101 @@
+.dashboard-container {
+  font-family: Arial, sans-serif;
+  padding: 20px;
+}
+
+.dashboard-header {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.dashboard-title {
+  font-size: 32px;
+  color: #4caf50;
+  animation: fadeIn 1s ease-in-out;
+}
+
+.dashboard-title span {
+  color: #2196f3;
+}
+
+.welcome-message {
+  font-size: 18px;
+  color: #555;
+  margin-top: 10px;
+  animation: fadeIn 1s ease-in-out;
+}
+
+.dashboard-nav button {
+  margin: 5px;
+  padding: 10px 15px;
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.dashboard-nav button:hover {
+  background-color: #45a049;
+}
+
+.dashboard-content h2 {
+  text-align: center;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.doctor-table {
+    width: 100%;
+    margin: 20px auto;
+    border-collapse: collapse;
+    background-color: #ffffff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    overflow: hidden;
+  }
+  
+  .doctor-table th,
+  .doctor-table td {
+    padding: 12px 15px;
+    text-align: left;
+  }
+  
+  .doctor-table th {
+    background-color: #4caf50;
+    color: white;
+    text-transform: uppercase;
+    font-size: 14px;
+  }
+  
+  .doctor-table tr:nth-child(even) {
+    background-color: #f9f9f9;
+  }
+  
+  .doctor-table tr:hover {
+    background-color: #f1f1f1;
+    transition: background-color 0.3s ease;
+  }
+  
+  .doctor-table td {
+    font-size: 14px;
+    color: #333;
+  }
+  
+  .no-data {
+    text-align: center;
+    color: #999;
+    font-style: italic;
+  }
+  
+  @media (max-width: 768px) {
+    .doctor-table {
+      font-size: 12px;
+    }
+  
+    .doctor-table th,
+    .doctor-table td {
+      padding: 10px;
+    }
+  }
+  

@@ -1,0 +1,80 @@
+.result-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #f8f9fa;
+  font-family: "Arial", sans-serif;
+}
+
+.result-card {
+  background-color: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  padding: 30px;
+  width: 400px;
+  text-align: center;
+}
+
+.result-title {
+  font-size: 24px;
+  font-weight: bold;
+  color: #4caf50;
+  margin-bottom: 20px;
+}
+
+.result-details {
+  text-align: left;
+  margin: 20px 0;
+  line-height: 1.6;
+}
+
+.result-details p {
+  margin: 8px 0;
+  font-size: 16px;
+  color: #333;
+}
+
+.result-error {
+  font-size: 16px;
+  color: #d32f2f;
+  margin: 20px 0;
+}
+
+.result-buttons {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.btn-dashboard,
+.btn-reservasi,
+.btn-back {
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  font-size: 14px;
+  font-weight: bold;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.btn-dashboard:hover,
+.btn-reservasi:hover,
+.btn-back:hover {
+  background-color: #388e3c;
+}
+
+.btn-dashboard {
+  margin-right: 10px;
+}
+
+.btn-back {
+  background-color: #d32f2f;
+}
+
+.btn-back:hover {
+  background-color: #b71c1c;
+}

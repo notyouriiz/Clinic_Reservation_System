@@ -1,0 +1,101 @@
+/* login.css */
+.login-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f4f4f9;
+  }
+  
+  .login-box {
+    width: 100%;
+    max-width: 400px;
+    padding: 30px;
+    background-color: white;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    text-align: center;
+  }
+  
+  h2 {
+    margin-bottom: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 24px;
+    color: #333;
+  }
+  
+  .input-group {
+    margin-bottom: 20px;
+  }
+  
+  .input-field {
+    width: 100%;
+    padding: 12px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    transition: border-color 0.3s;
+  }
+  
+  .input-field:focus {
+    border-color: #031eb8;
+    outline: none;
+  }
+  
+  .btn-login,
+  .btn-google {
+    width: 100%;
+    padding: 12px;
+    font-size: 16px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-bottom: 10px;
+    transition: background-color 0.3s;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .btn-login {
+    background-color: #4CAF50;
+    color: white;
+  }
+  
+  .btn-login:hover {
+    background-color: #45a049;
+  }
+  
+  .btn-google {
+    background-color: #4285F4;
+    color: white;
+  }
+  
+  .btn-google:hover {
+    background-color: #357ae8;
+  }
+  
+  .google-logo {
+    margin-right: 10px; /* Menambahkan jarak antara logo dan teks */
+    width: 20px; /* Menyesuaikan ukuran logo */
+    height: 20px; /* Menyesuaikan ukuran logo */
+  }
+  
+  .register-link,
+  .forgot-password-link {
+    font-size: 14px;
+    color: #333;
+  }
+  
+  .register-link a,
+  .forgot-password-link a {
+    color: #4CAF50;
+    text-decoration: none;
+  }
+  
+  .register-link a:hover,
+  .forgot-password-link a:hover {
+    text-decoration: underline;
+  }
+  

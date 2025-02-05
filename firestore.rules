@@ -1,0 +1,26 @@
+rules_version = '2';
+
+service cloud.firestore {
+  match /databases/{database}/documents {
+    
+    // Aturan untuk koleksi "reservations"
+    match /reservations/{reservationId} {
+      // Mengizinkan hanya pengguna yang terautentikasi untuk menulis dan membaca data
+      allow read, write: if request.auth != null;
+    }
+
+    // Aturan untuk koleksi "doctors"
+    match /doctors/{doctorId} {
+      // Mengizinkan semua pengguna untuk membaca data dokter
+      allow read: if true; // Semua pengguna bisa membaca data dokter
+      // Tidak ada izin menulis untuk koleksi "doctors"
+      allow write: if false;
+    }
+
+    // Aturan untuk koleksi lainnya
+    match /{document=**} {
+      // Semua akses lain ditolak
+      allow read, write: if false;
+    }
+  }
+}
