@@ -1,5 +1,6 @@
 # Clinic Reservation System
 The **Study Case Clinic Reservation System** is designed to streamline the appointment booking process for clinics, enhancing the user experience through a modern web application. This project utilizes various technologies to ensure efficient and secure management of patient reservations.
+<img src="Mockup/Project Mockup.png" alt="Clinic Reservation Project Mockup">
 
 ## Tech Stack
 The application is built using the following technologies:
